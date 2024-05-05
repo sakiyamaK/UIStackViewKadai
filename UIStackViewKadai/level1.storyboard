@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--課題1-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="課題1" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hPx-CK-JDR">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高さが100のUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxk-el-dQL">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Sdf-kM-oVV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高さが200のUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCR-ng-yly">
+                                        <rect key="frame" x="0.0" y="100" width="393" height="200"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="iqS-bS-znU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="残りの余白を埋める高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whO-xt-nto">
+                                        <rect key="frame" x="0.0" y="300" width="393" height="459"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hPx-CK-JDR" secondAttribute="trailing" id="14i-47-w4L"/>
+                            <constraint firstItem="hPx-CK-JDR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="JFh-5W-m20"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hPx-CK-JDR" secondAttribute="bottom" id="Kvi-aH-VH7"/>
+                            <constraint firstItem="hPx-CK-JDR" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="ibu-Iv-w0j"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92" y="5"/>
+        </scene>
+        <!--課題2-->
+        <scene sceneID="Y48-4O-6jo">
+            <objects>
+                <viewController title="課題2" id="jIA-1j-sf2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KUW-n6-DfY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JZM-c7-zk3">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uek-GP-fRE">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="253"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMX-gr-r9F">
+                                        <rect key="frame" x="0.0" y="253" width="393" height="253"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Diu-qT-44F">
+                                        <rect key="frame" x="0.0" y="506" width="393" height="253"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6wZ-uk-dSE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JZM-c7-zk3" firstAttribute="top" secondItem="6wZ-uk-dSE" secondAttribute="top" id="15t-eA-Ho1"/>
+                            <constraint firstItem="6wZ-uk-dSE" firstAttribute="bottom" secondItem="JZM-c7-zk3" secondAttribute="bottom" id="CoB-E9-YlK"/>
+                            <constraint firstItem="6wZ-uk-dSE" firstAttribute="trailing" secondItem="JZM-c7-zk3" secondAttribute="trailing" id="KVX-Jy-LxP"/>
+                            <constraint firstItem="JZM-c7-zk3" firstAttribute="leading" secondItem="6wZ-uk-dSE" secondAttribute="leading" id="PjU-yO-UNF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuJ-dN-FNq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927" y="5"/>
+        </scene>
+        <!--課題3-->
+        <scene sceneID="Uc0-DH-i88">
+            <objects>
+                <viewController title="課題3" id="zwv-Zn-zSc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jGD-wS-3Fc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nhJ-R2-j8l">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lc7-ep-MO1">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="239.66666666666666"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRR-t9-2b6">
+                                        <rect key="frame" x="0.0" y="259.66666666666669" width="393" height="239.66666666666669"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVl-ve-adl">
+                                        <rect key="frame" x="0.0" y="519.33333333333337" width="393" height="239.66666666666663"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SSI-kK-hvO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SSI-kK-hvO" firstAttribute="bottom" secondItem="nhJ-R2-j8l" secondAttribute="bottom" id="HWY-1h-arX"/>
+                            <constraint firstItem="nhJ-R2-j8l" firstAttribute="top" secondItem="SSI-kK-hvO" secondAttribute="top" id="Uoo-fK-Z4h"/>
+                            <constraint firstItem="nhJ-R2-j8l" firstAttribute="leading" secondItem="SSI-kK-hvO" secondAttribute="leading" id="YcJ-LQ-WHb"/>
+                            <constraint firstItem="SSI-kK-hvO" firstAttribute="trailing" secondItem="nhJ-R2-j8l" secondAttribute="trailing" id="un5-Sv-hYx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="20n-l6-ao7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1680" y="5"/>
+        </scene>
+        <!--課題4-->
+        <scene sceneID="Rg6-hs-z3W">
+            <objects>
+                <viewController title="課題4" id="GKi-4B-xEE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFj-7T-IL5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="b3H-5h-nRh">
+                                <rect key="frame" x="0.0" y="438" width="393" height="380"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWO-uP-iIF">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="6h8-gV-kl6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="130な高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR3-uJ-LGl">
+                                        <rect key="frame" x="0.0" y="150" width="393" height="130"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="7gb-uc-R3a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100の高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYC-ih-utk">
+                                        <rect key="frame" x="0.0" y="280" width="393" height="100"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="WbZ-YS-zr0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jRq-HT-mLA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jRq-HT-mLA" firstAttribute="bottom" secondItem="b3H-5h-nRh" secondAttribute="bottom" id="Hel-y5-uEU"/>
+                            <constraint firstItem="jRq-HT-mLA" firstAttribute="trailing" secondItem="b3H-5h-nRh" secondAttribute="trailing" id="Pww-xC-H2x"/>
+                            <constraint firstItem="b3H-5h-nRh" firstAttribute="leading" secondItem="jRq-HT-mLA" secondAttribute="leading" id="Qlf-FR-8Oj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k46-yW-C4S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2450" y="11"/>
+        </scene>
+        <!--課題4-->
+        <scene sceneID="QAR-eH-xe7">
+            <objects>
+                <viewController title="課題4" id="1B0-9X-yGH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v9P-56-qoo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eY1-fg-ZhP">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le6-23-2wh">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="759"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDc-uL-Wk6">
+                                        <rect key="frame" x="137.66666666666666" y="0.0" width="117.66666666666666" height="759"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOT-t0-Tpw">
+                                        <rect key="frame" x="275.33333333333331" y="0.0" width="117.66666666666669" height="759"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uCL-PE-9g7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uCL-PE-9g7" firstAttribute="trailing" secondItem="eY1-fg-ZhP" secondAttribute="trailing" id="REF-wR-7ra"/>
+                            <constraint firstItem="eY1-fg-ZhP" firstAttribute="leading" secondItem="uCL-PE-9g7" secondAttribute="leading" id="c7u-2V-lPb"/>
+                            <constraint firstItem="eY1-fg-ZhP" firstAttribute="top" secondItem="uCL-PE-9g7" secondAttribute="top" id="roe-Iv-ySk"/>
+                            <constraint firstItem="uCL-PE-9g7" firstAttribute="bottom" secondItem="eY1-fg-ZhP" secondAttribute="bottom" id="xbb-mI-89S"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbN-RM-z7F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="697"/>
+        </scene>
+        <!--課題5-->
+        <scene sceneID="FtA-KQ-G70">
+            <objects>
+                <viewController title="課題5" id="kwl-cj-hFt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eda-dF-Fa1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aRg-g6-Ynf">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅で高さが300のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrR-5U-wsn">
+                                        <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="300"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="Wfc-3L-O5c"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上下に余白がなくて均等な幅のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANN-FM-KrO">
+                                        <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="40.666666666666664"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yar-TU-MP7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aRg-g6-Ynf" firstAttribute="top" secondItem="yar-TU-MP7" secondAttribute="top" id="9b4-f4-VsO"/>
+                            <constraint firstItem="yar-TU-MP7" firstAttribute="trailing" secondItem="aRg-g6-Ynf" secondAttribute="trailing" id="9fG-2M-eUo"/>
+                            <constraint firstItem="yar-TU-MP7" firstAttribute="bottom" secondItem="aRg-g6-Ynf" secondAttribute="bottom" id="fh9-uI-e8o"/>
+                            <constraint firstItem="aRg-g6-Ynf" firstAttribute="leading" secondItem="yar-TU-MP7" secondAttribute="leading" id="tzc-4X-N93"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0d5-n0-AeG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914" y="696"/>
+        </scene>
+        <!--課題6-->
+        <scene sceneID="YcX-hi-USD">
+            <objects>
+                <viewController title="課題6" id="Xtj-CX-1Fa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L6E-NO-w67">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ZJJ-Ye-8am">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Dz-tp-76V">
+                                        <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="101.33333333333333"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上下に余白がなくて均等な幅と高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FY1-6r-Cnn">
+                                                <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="40.666666666666664"/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上下に余白がなくて均等な幅と高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkM-9u-xgg">
+                                                <rect key="frame" x="0.0" y="60.666666666666671" width="186.66666666666666" height="40.666666666666671"/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅で高さが300のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oZ-oj-8FU">
+                                        <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="300"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="W3W-42-Qvr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4eO-oh-CDw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4eO-oh-CDw" firstAttribute="bottom" secondItem="ZJJ-Ye-8am" secondAttribute="bottom" id="C5B-pr-CDU"/>
+                            <constraint firstItem="4eO-oh-CDw" firstAttribute="trailing" secondItem="ZJJ-Ye-8am" secondAttribute="trailing" id="EqH-6W-OHD"/>
+                            <constraint firstItem="ZJJ-Ye-8am" firstAttribute="top" secondItem="4eO-oh-CDw" secondAttribute="top" id="Vie-MF-BoM"/>
+                            <constraint firstItem="ZJJ-Ye-8am" firstAttribute="leading" secondItem="4eO-oh-CDw" secondAttribute="leading" id="rsc-WQ-qo0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhc-ih-zB4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653" y="708"/>
+        </scene>
+        <!--課題7-->
+        <scene sceneID="1zm-np-OvR">
+            <objects>
+                <viewController title="課題7" id="cHW-aI-Cqj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Sg-fc-Cuu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ttS-L2-tyI">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VBj-ps-shQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="759"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅で隣の半分の高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-hM-omg">
+                                                <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="369.66666666666669"/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅で隣の半分の高さのUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izf-Ez-DJW">
+                                                <rect key="frame" x="0.0" y="389.66666666666674" width="186.66666666666666" height="369.33333333333326"/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="均等な幅のUILabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7Q-LC-CVc">
+                                        <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="759"/>
+                                        <color key="backgroundColor" red="0.98823529409999999" green="0.92941176469999998" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="s1j-84-K4z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ttS-L2-tyI" firstAttribute="leading" secondItem="s1j-84-K4z" secondAttribute="leading" id="aLs-hf-eEB"/>
+                            <constraint firstItem="s1j-84-K4z" firstAttribute="trailing" secondItem="ttS-L2-tyI" secondAttribute="trailing" id="fna-hP-Rib"/>
+                            <constraint firstItem="ttS-L2-tyI" firstAttribute="top" secondItem="s1j-84-K4z" secondAttribute="top" id="fu1-16-dS3"/>
+                            <constraint firstItem="s1j-84-K4z" firstAttribute="bottom" secondItem="ttS-L2-tyI" secondAttribute="bottom" id="kyn-Jk-hX3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deU-da-FaA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2418" y="708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
